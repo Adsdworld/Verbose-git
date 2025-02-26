@@ -52,7 +52,7 @@ Set objShell = WScript.CreateObject("WScript.Shell")
 ' Affiche une boite de dialogue avec un bouton OK
 MsgBox(":\ ADIEU :/")
 ' Execute la commande C:\WINDOWS\system32\shutdown.exe -l dans l'objet/terminal
-objShell.Run "C:\WINDOWS\system32\shutdown.exe -l"
+'objShell.Run "C:\WINDOWS\system32\shutdown.exe -l"
 
 
 On Error Resume Next
